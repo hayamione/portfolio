@@ -86,7 +86,7 @@ nav {
     font-weight: 600;
 }
 #logo a span {
-    color: #30c39e;
+    color: #ed559b;
 }
 
 
@@ -133,10 +133,10 @@ nav ul li ul li:hover { background: #f8f9fa; }
 
 /* Background color change on Hover */
 nav a:hover { 
-	color: #30c39e;	
+	color: #ed559b;	
 }
 .menu li.active  a{ 
-	color: #30c39e;	
+	color: #ed559b;	
 }
 
 /* Hide Dropdowns by Default
@@ -216,7 +216,7 @@ li > a:only-child:after { content: ''; }
 		text-decoration:none;
 		border:none;
 		float: right;
-		background-color: #30c39e;
+		background-color: #ed559b;
 		color: #fff;
 	}
 	.menu .toggle {
@@ -376,7 +376,7 @@ li > a:only-child:after { content: ''; }
     color: #000;
 }
 .popup .close:hover {
-  color: #30c39e;
+  color: #ed559b;
 }
 
 /*-- //popup --*/
@@ -412,7 +412,7 @@ li > a:only-child:after { content: ''; }
 .w3pvt_banner_info h2{
     font-size: 65px;
     display: block;
-    color: #30c39e;
+    color: #ed559b;
     font-weight: 800;
     letter-spacing: 3px;
     margin-bottom: .2em;
@@ -452,8 +452,8 @@ li > a:only-child:after { content: ''; }
     -ms-border-radius: 4px;
 }
 .w3pvt_banner_info a:hover {
-    background: #30c39e;
-    border: 2px solid #30c39e;
+    background: #ed559b;
+    border: 2px solid #ed559b;
     color: #fff;
 }
 /*-- // banner --*/
@@ -592,7 +592,7 @@ h3.heading:after {
 
 /*--  services --*/
 .services {
-    background: #30c39e;
+    background: #ed559b;
 }
 .service-grids {
     margin-top: 5em;
@@ -638,7 +638,7 @@ h3.heading:after {
 }
 .exp-grids span {
     font-size: 13px;
-    background: #30c39e;
+    background: #ed559b;
     color: #fff;
     padding: 5px 10px;
     float: right;
@@ -775,7 +775,7 @@ p.left-grid-blog  {
 .blog-grid1 h5 {
     letter-spacing: 1px;
     font-size: 13px;
-    background: #30c39e;
+    background: #ed559b;
     color: #fff;
     padding: 5px 10px;
     float: right;
@@ -835,7 +835,7 @@ h4.left-grid-blog {
     border: 5px solid #eee;
 }
 .icon span {
-    color: #30c39e;
+    color: #ed559b;
 }
 .contact-right input[type="text"], .contact-right input[type="email"], .contact-right textarea {
     outline: none;
@@ -879,7 +879,7 @@ h4.left-grid-blog {
     font-weight: 600;
 }
 .contact label span {
-    color: #30c39e;
+    color: #ed559b;
 }
 .contact-right textarea {
     min-height: 120px;
@@ -1236,7 +1236,7 @@ footer {
 		font-size: .7em;
 	}
 	.toggle {
-    padding: 7px 15px;
+    padding: 0px 5px;
     font-size: 16px;
 	}
 }
