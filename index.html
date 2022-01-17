@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
 	<meta name="keywords" content="portfolio, web designer, freelance, freelance web design, web design" />
+    <link rel="shortcut icon" href="favicon.png">
 	<!-- scroll top script when refresh a page
 	<script type="application/x-javascript">
 		addEventListener("load", function () {
@@ -25,7 +26,8 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Font-Awesome-Icons-CSS -->
 	<!-- //css files -->
 	
-	<!--web font--><link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+	<!--web font-->
+    <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
 	<!--//web font-->
 
 </head>
@@ -33,21 +35,21 @@
 <body>
 
 <!-- //header -->
-<header>	
+<header id="header">	
 	<div class="container" id="home">
 		<!-- nav -->
-		<nav class="py-4">
+		<nav class="py-2">
         <div id="logo">
-			<h1> <a href="#index.html"><span class="fa fa-rebel" aria-hidden="true"></span> Activity</a></h1>
+			<h1> <a href="#index.html"><span class="fa fa-laptop" aria-hidden="true"></span><span class="fa fa-code" aria-hidden="true"></span> haya</a></h1>
 		</div>
 
-        <label for="drop" class="toggle">Menu</label>
+        <label for="drop" class="toggle"><i class="fa fa-caret-square-o-down" aria-hidden="true"></i></label>
         <input type="checkbox" id="drop" />
             <ul class="menu mt-2">
-                <li class="mr-lg-4 mr-3 active"><a href="#">Home</a></li>
-                <li class="mr-lg-4 mr-3"><a href="#about">About</a></li>
-                <li class="mr-lg-4 mr-3"><a href="#services">Services</a></li>
-                <li class="mr-lg-4 mr-3"><a href="#experience">Experience</a></li>
+                <li class="mr-lg-4 mr-3 active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <li class="mr-lg-4 mr-3"><a href="#about"><i class="fa fa-code" aria-hidden="true"></i> About</a></li>
+                <li class="mr-lg-4 mr-3"><a href="#services"><i class="fa fa-cog" aria-hidden="true"></i> Services</a></li>
+                <<!--li class="mr-lg-4 mr-3"><a href="#experience">Experience</a></li>-->
                 <!--<li class="mr-lg-4 mr-3">
                 <!-- First Tier Drop Down --
                 <label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
@@ -59,7 +61,7 @@
                     <li><a href="#text">Quoted Text</a></li>
                 </ul>
                 </li>-->
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
             </ul>
         </nav>
 		<!-- //nav -->
@@ -277,20 +279,46 @@
 <!-- //gallery --> 
 
 <!-- text -->
-<div class="text py-lg-5 py-5 text-center" id="text">
-	<div class="container py-sm-3">
+<div class="text text-center" id="text" style="background-image:url(images/macbook-pro-silver-aesthetic-wallpaper.jpg); background-repeat:none;background-size:cover;">
+    <div class="py-lg-5 py-5" style="background:rgba(0,0,0,0.7);">
+        <div class="container py-3">
+        <h3 class="heading" style="color:#fff;">Contact</h3>
+        <div class="row contact-grids">
+            <div class="col-lg-2 contact-left">
+            </div>
+            <div class="col-lg-8 mt-lg-0 mt-5 contact-right">
+                <h4 class="mb-4" style="color:#fff;">Get In Touch</h4>
+                <form action="#" method="post" class="form">
+                    <label style="color:#fff !important;"><span class="fa mr-2 fa-user" aria-hidden="true"></span>Name</label>
+                    <input type="text" name="Name" value="Name" style="color:#fff;" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+                    <div class="clearfix"></div>
+                    <label style="color:#fff !important;"><span class="fa mr-2 fa-phone" aria-hidden="true"></span>Phone</label>
+                    <input type="text" name="Phone" value="Phone" style="color:#fff;" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" required="">
+                    <div class="clearfix"></div>
+                    <label style="color:#fff !important;"><span class="fa mr-2 fa-envelope-open" aria-hidden="true"></span>Email</label>
+                    <input type="email" name="Email" value="Email" style="color:#fff;" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+                    <div class="clearfix"></div>
+                    <label style="color:#fff !important;"><span class="fa mr-2 fa-edit" aria-hidden="true"></span>Message</label>
+                    <textarea name="Message" style="color:#fff;" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+	<!--<div class="container py-sm-3">
 		<h5 class="w3pvt-title text-white">Ulvinar neque pharetra ac int. placerat</h5>
 		<p>Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor. Vestibulum at dui nunc. Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum at dui nunc. Nullam eu elit neque lectus.</p>
 		<div class="d-flex justify-content-center mt-3">
 			<a href="#" class="text-capitalize mr-2 work btn">My work </a>
 			<a href="#" class="text-capitalize hire btn">Hire Me </a>
 		</div>
-	</div>
+	</div>-->
+    </div>
 </div>
 <!-- //text -->
 
 <!-- contact -->
-<section class="contact py-5" id="contact">
+<!--<section class="contact py-5" id="contact">
 	<div class="container py-3">
 		<h3 class="heading">Contact</h3>
 		<div class="row contact-grids">
@@ -340,21 +368,19 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section>-->
 <!-- //contact -->
 
 <!-- footer -->
-<footer class="py-5">
+<footer class="py-1">
 	<div class="container">
 		<div class="w3layoutsinfo-grids">
-			<div class="w3layouts-grid-left w3layouts-grid-right text-center">
-				<div class="social mb-4">
+			<div class="w3layouts-grid-left w3layouts-grid-right text-right">
+				<div class="social">
 					<ul>
 						<li><a href="#"><span class="fa mr-2 fa-facebook"></span></a></li>
-						<li><a href="#"><span class="fa mr-2 fa-twitter"></span></a></li>
-						<li><a href="#"><span class="fa mr-2 fa-google-plus"></span></a></li>
-						<li><a href="#"><span class="fa mr-2 fa-pinterest"></span></a></li>
-						<li><a href="#"><span class="fa mr-2 fa-vk"></span></a></li>
+						<li><a href="#"><span class="fa mr-2 fa-instagram"></span></a></li>
+						<li><a href="#"><span class="fa mr-2 fa-linkedin"></span></a></li>
 					</ul>
 				</div>
 			</div>
@@ -435,6 +461,28 @@
 		</div>
 	</div>
 <!-- //popup for gallery -->
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("header").setAttribute("style", "position:fixed;background: rgba(0,0,0,0.9);");
+            }
+            else {
+                document.getElementById("header").setAttribute("style", "position:absolute;background: transparent;");
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 
 </body>
 </html>
