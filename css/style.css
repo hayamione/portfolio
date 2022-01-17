@@ -61,6 +61,7 @@ header {
     position: absolute;
     z-index: 9;
     width: 100%;
+    top:0;background:transparent;
 }
 
 .toggle,
@@ -86,7 +87,7 @@ nav {
     font-weight: 600;
 }
 #logo a span {
-    color: #ed559b;
+    color: #eaa000;
 }
 
 
@@ -119,24 +120,29 @@ nav ul li {
 /* Styling the links */
 nav a {
     color: #fff;
-    text-transform: capitalize;
-    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: 600;
     font-size: 15px;
     letter-spacing: 1px;
     padding-left: 0;
     padding-right: 0;
-	padding: 10px 0;
+	padding: 5px 0;
 }
-
+.menu > li:first-child > a > i {
+    color: #fff !important;
+}
+.menu > li > a > i {
+    color: #eaa000 !important;
+}
 
 nav ul li ul li:hover { background: #f8f9fa; }
 
 /* Background color change on Hover */
 nav a:hover { 
-	color: #ed559b;	
+	color: #eaa000;	
 }
 .menu li.active  a{ 
-	color: #ed559b;	
+	color: #eaa000;	
 }
 
 /* Hide Dropdowns by Default
@@ -216,7 +222,7 @@ li > a:only-child:after { content: ''; }
 		text-decoration:none;
 		border:none;
 		float: right;
-		background-color: #ed559b;
+		background-color: #eaa000;
 		color: #fff;
 	}
 	.menu .toggle {
@@ -376,25 +382,25 @@ li > a:only-child:after { content: ''; }
     color: #000;
 }
 .popup .close:hover {
-  color: #ed559b;
+  color: #eaa000;
 }
 
 /*-- //popup --*/
 
 /*-- banner --*/
 .banner{
-	background:url(../images/banner.jpg) no-repeat center;
+	background:url(../images/girl-working-laptop-2.jpg) no-repeat center;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-    min-height: 770px;
+    min-height: 550px;
 }
 .banner-layer {
     background: url(../images/layer.png)repeat;
     background: rgba(0, 0, 0, 0.5);
-    min-height: 770px;
+    min-height: 550px;
 }
 .w3layouts_banner_margin {
     padding: 17em 0em 0em;
@@ -412,7 +418,7 @@ li > a:only-child:after { content: ''; }
 .w3pvt_banner_info h2{
     font-size: 65px;
     display: block;
-    color: #ed559b;
+    color: #eaa000;
     font-weight: 800;
     letter-spacing: 3px;
     margin-bottom: .2em;
@@ -452,8 +458,8 @@ li > a:only-child:after { content: ''; }
     -ms-border-radius: 4px;
 }
 .w3pvt_banner_info a:hover {
-    background: #ed559b;
-    border: 2px solid #ed559b;
+    background: #eaa000;
+    border: 2px solid #eaa000;
     color: #fff;
 }
 /*-- // banner --*/
@@ -521,8 +527,8 @@ h3.w3layouts_tittle.two {
 .about-grids a {
     padding: 11px 35px;
     color: #fff;
-    background: #0a8ea0;
-    border: 2px solid #0a8ea0;
+    background: #eaa000;
+    border: 2px solid #eaa000;
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 1px;
@@ -580,7 +586,7 @@ h3.heading:after {
     content: '';
     width: 10%;
     height: 3px;
-    background: #333;
+    background: #eaa000;
     left: 45%;
     bottom: -18%;
 }
@@ -592,7 +598,7 @@ h3.heading:after {
 
 /*--  services --*/
 .services {
-    background: #ed559b;
+    background: #eaa000;
 }
 .service-grids {
     margin-top: 5em;
@@ -638,7 +644,7 @@ h3.heading:after {
 }
 .exp-grids span {
     font-size: 13px;
-    background: #ed559b;
+    background: #eaa000;
     color: #fff;
     padding: 5px 10px;
     float: right;
@@ -684,7 +690,7 @@ h5.w3pvt-title {
 	
 }
 .text{
-	background: #0a8ea0;
+	background: #eaa000;
 }
 .text p {
     margin: 0;
@@ -696,7 +702,7 @@ h5.w3pvt-title {
 }
 a.work,a.hire:hover {
     padding: 11px 35px;
-    color: #0a8ea0;
+    color: #eaa000;
     background: #fff;
     border: 2px solid #fff;
     font-weight: 500;
@@ -710,8 +716,8 @@ a.work,a.hire:hover {
     -ms-border-radius: 4px;
 }
 a.work:hover,a.hire {
-    background: #333;
-    border: 2px solid #333;
+    background: #eaa000;
+    border: 2px solid #eaa000;
     color: #fff;
     padding: 11px 35px;
     font-weight: 500;
@@ -728,7 +734,7 @@ a.work:hover,a.hire {
 
 /*-- blog -*/
 .blog {
-    background: url(../images/blog1.jpg) no-repeat 0px 0px;
+    background: url(../images/keyboard-rainbow.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -750,7 +756,7 @@ a.work:hover,a.hire {
     letter-spacing: .5px;
 }
 .blog-grid1 a {
-    color: #0a8ea0;
+    color: #eaa000;
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 1px;
@@ -775,7 +781,7 @@ p.left-grid-blog  {
 .blog-grid1 h5 {
     letter-spacing: 1px;
     font-size: 13px;
-    background: #ed559b;
+    background: #eaa000;
     color: #fff;
     padding: 5px 10px;
     float: right;
@@ -835,7 +841,7 @@ h4.left-grid-blog {
     border: 5px solid #eee;
 }
 .icon span {
-    color: #ed559b;
+    color: #eaa000;
 }
 .contact-right input[type="text"], .contact-right input[type="email"], .contact-right textarea {
     outline: none;
@@ -853,8 +859,8 @@ h4.left-grid-blog {
 .contact-right button[type="submit"] {
     padding: 11px 35px;
     color: #fff;
-    background: #0a8ea0;
-	border: 2px solid #0a8ea0;
+    background: #eaa000;
+	border: 2px solid #eaa000;
     font-weight: 600;
     font-size: 15px;
     letter-spacing: 1px;
@@ -879,7 +885,7 @@ h4.left-grid-blog {
     font-weight: 600;
 }
 .contact label span {
-    color: #ed559b;
+    color: #eaa000;
 }
 .contact-right textarea {
     min-height: 120px;
